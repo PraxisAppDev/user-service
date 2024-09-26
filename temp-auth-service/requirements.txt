@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+jose
+pydantic
+pyjwt
+redis
+passlib[bcrypt]
