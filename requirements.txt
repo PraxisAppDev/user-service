@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic[email]
+pydantic-settings
+redis
+bcrypt
+passlib
+jose
+pyjwt
+requests
