@@ -3,7 +3,7 @@ import json                     # Import JSON module for serialization and deser
 from model import UserModel     # Import UserModel class for creating and retrieving user objects
 
 class RedisClient:
-    def __init__(self, host='redis-11734.c11.us-east-1-3.ec2.redns.redis-cloud.com', port=11734, db=0, password='zMJq8dQ7IQhh4ooxREeEDinaqCK8NS9q'):
+    def __init__(self, host='your-redis-host', port=11734, db=0, password='your-redis-pw'):
         # Initialize Redis client with connection details (host, port, db, password, decode_responses)
         self.client = redis.Redis(host=host, port=port, db=db, password=password, decode_responses=True)
     #///DEBUGGING///
